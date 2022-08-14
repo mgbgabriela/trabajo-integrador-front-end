@@ -5,33 +5,18 @@ body {
   
 }
 
-.encabezado {
-  display:flexbox;
-  flex-direction: row;
+.divInputs {
+  display:flex;
+  align-items: block;
+  background-color: rgb(81, 164, 216);
   justify-content: center;
-  background-color: lightskyblue;
-}
-
-h2 {
-  font-size: 250%;
-  text-align: center;
-  color: tomato;
-}
-
-.lista {
-  color: rgb(6, 13, 53);
-}
-
-.descuento {
-  color: rgb(6, 13, 53);
-  text-align: center;
-  size: 150%;
 }
 
 .divBotones {
   display: flex;
   align-items: block;
   background-color: lightskyblue;
+  justify-content: center;
   
 }
 
@@ -40,8 +25,21 @@ h2 {
   
 }
 
-
-
-button {
-  display: block;
+h2 {
+  font-size: 200%;
+  text-align: center;
+  color: rgb(231, 69, 69);
 }
+
+.lista {
+  color: rgb(6, 13, 53);
+}
+
+#descuento {
+  color: rgb(231, 69, 69);
+  text-align: center;
+  size: 250%;
+}
+
+
+
