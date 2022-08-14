@@ -1,21 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
-  <html>
-    <head>
-      <title>Parcel Sandbox</title>
-      <meta charset="UTF-8" />
-    </head>
+  <head>
+    <title>Parcel Sandbox</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="src/secundarias.css" />
+  </head>
 
-    <body>
-      <div id="app"></div>
-
-      <h2>Compras</h2>
-      <input type="text" id="producto" />
-      <input type="text" id="precio" />
-      <button id="btnAgregar">Agregar al carrito</button>
-      <button id="btnTotal">Total</button>
-      <ul class="lista"></ul>
-      <script src="src/index.ts"></script>
-    </body>
-  </html>
+  <body>
+    <h2 class="titulos2">
+      Carga productos en tu carrito y calcula el descuento
+    </h2>
+    <div class="encabezado">
+      <input
+        type="text"
+        id="nombre"
+        placeholder="Ingrese el nombre del producto"
+      />
+      <input
+        type="text"
+        id="unitario"
+        placeholder="Ingrese el precio del producot"
+      />
+    </div>
+    <div class="divBotones">
+      <button id="btnIngresar">Ingresar</button>
+      <button id="btnTotal">Total de su compra</button>
+      <button id="btnDescuento">Descuento</button>
+    </div>
+    <div class="divResultado">
+      <ul id="lista"></ul>
+      <p id="descuento"></p>
+    </div>
+    <script src="src/index.ts"></script>
+  </body>
 </html>

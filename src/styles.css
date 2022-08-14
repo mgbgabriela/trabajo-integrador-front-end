@@ -1,8 +1,27 @@
-body {
+.principal {
   font-family: sans-serif;
+  background-color: rgb(201, 33, 33);
 }
 
-tituloPrincipal {
-  font-size: 450 px;
-  color: blue;
+.tituloPrincipal {
+  text-align: center;
+  font-size: 250%;
+  color: white;
+}
+
+.subtituloPrincipal {
+  font-size: 600%;
+  color: rgb(62, 62, 122);
+  text-align: center;
+}
+
+.titulosSecundarios {
+  color: whitesmoke;
+  font-size: 250%;
+}
+
+.texto {
+  color: black;
+  font-style: oblique;
+  font-weight: bold;
 }

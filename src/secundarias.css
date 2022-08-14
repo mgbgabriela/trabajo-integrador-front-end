@@ -1,14 +1,47 @@
-.titulos2{
-  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
-  font-size: 50%;
-  col
+body {
+  background-color: rgb(194, 224, 238);
 }
 
-.parrafos{
-  text-align: justify;
-  font-family: 'Times New Roman', Times, serif;
+  
 }
 
-.fondo{
-  background-color: blueviolet;
+.encabezado {
+  display:flexbox;
+  flex-direction: row;
+  justify-content: center;
+  background-color: lightskyblue;
+}
+
+h2 {
+  font-size: 250%;
+  text-align: center;
+  color: tomato;
+}
+
+.lista {
+  color: rgb(6, 13, 53);
+}
+
+.descuento {
+  color: rgb(6, 13, 53);
+  text-align: center;
+  size: 150%;
+}
+
+.divBotones {
+  display: flex;
+  align-items: block;
+  background-color: lightskyblue;
+  
+}
+
+.divResultados {
+  background-color: lightskyblue;
+  
+}
+
+
+
+button {
+  display: block;
 }
